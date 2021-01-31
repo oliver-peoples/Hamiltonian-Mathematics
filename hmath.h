@@ -563,21 +563,21 @@ namespace hmath
             return Vector3(this->i, this->j, this->k);
         }
 
-        double getNorm()
+        double norm()
         {
             return sqrt(this->w*this->w + this->i*this->i + this->j*this->j + this->k*this->k);
         }
 
-        Quaternion getNormalized()
+        Quaternion normalized()
         {
-            double norm = this->getNorm();
+            double norm = this->norm();
             Quaternion normed(this->w / norm, this->i / norm, this->j / norm, this->k / norm);
             return normed;
         }
 
-        void makeNormalized()
+        void normalize()
         {
-            double norm = this->getNorm();
+            double norm = this->norm();
             this->w /= norm;
             this->i /= norm;
             this->j /= norm;
@@ -599,14 +599,14 @@ namespace hmath
 
         Quaternion getInverse()
         {
-            double norm = this->getNorm();
+            double norm = this->norm();
             Quaternion inverse(this->w / norm, (this->i * -1) / norm, (this->j * -1) / norm, (this->k * -1) / norm);
             return inverse;
         }
 
         void makeInverted()
         {
-            double norm = this->getNorm();
+            double norm = this->norm();
             this->w = (this->w * -1) / norm;
             this->i = (this->i * -1) / norm;
             this->j = (this->j * -1) / norm;
