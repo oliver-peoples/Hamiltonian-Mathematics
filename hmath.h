@@ -271,21 +271,21 @@ namespace hmath
 			this->i *= 1 / mag;
 			this->j *= 1 / mag;
 			this->k *= 1 / mag;
-		}		
+		}
+
+		double dot(Vector3 v1, Vector3 v2)
+		{
+			return v1.i * v2.i + v1.j * v2.j + v1.k * v2.k;
+		}
 	};
 
-	double dot(Vector3 v1, Vector3 v2)
-	{
-		return v1.i * v2.i + v1.j * v2.j + v1.k * v2.k;
-	}
-
-	std::ostream& operator<<(std::ostream& os, Vector3& v)
+	std::ostream& operator<<(std::ostream& os, Vector3 v)
 	{
 		os << v.i << ", " << v.j << ", " << v.k;
 		return os;
 	}
 
-	Vector3 operator+(Vector3& v1, Vector3& v2)
+	Vector3 operator+(Vector3 v1, Vector3 v2)
 	{
 		return Vector3(v1.i + v2.i, v1.j + v2.j, v1.k + v2.k);
 	}
@@ -297,12 +297,12 @@ namespace hmath
 		v1.k += v2.k;
 	}
 
-	Vector3 operator-(Vector3& v1, Vector3& v2)
+	Vector3 operator-(Vector3 v1, Vector3 v2)
 	{
 		return Vector3(v1.i - v2.i, v1.j - v2.j, v1.k - v2.k);
 	}
 
-	void operator-=(Vector3& v1, Vector3& v2)
+	void operator-=(Vector3& v1, Vector3 v2)
 	{
 		v1.i -= v2.i;
 		v1.j -= v2.j;
