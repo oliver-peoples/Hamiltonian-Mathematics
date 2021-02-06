@@ -558,6 +558,17 @@ namespace hmath
 			}
 		}
 
+		Quaternion(hmath::Vector3 axis, double theta)
+		{
+			double thetaOn2 = theta / 2;
+			axis.normalize();
+
+			this->w = cos(thetaOn2);
+			this->i = sin(thetaOn2) * axis.i;
+			this->j = sin(thetaOn2) * axis.j;
+			this->k = sin(thetaOn2) * axis.k;
+		}
+
         Vector3 getVectorComponent()
         {
             return Vector3(this->i, this->j, this->k);
