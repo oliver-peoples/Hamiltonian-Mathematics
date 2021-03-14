@@ -740,5 +740,12 @@ namespace hmath
 	//	new_y.normalize();
 	//}
 
-
+	// template<size_t nDimensions, typename elementType> class nDimensionalField
+	// {
+	// private:
+	// 	struct nVector
+	// public:
+	// 	nDimensionalVectorField() {}
+	// 	~nDimensionalVectorField() {}
+	// };		
 }

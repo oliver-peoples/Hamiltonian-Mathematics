@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields/build",
+  "command": "/bin/g++-9 -DCERES_FOUND -I/home/finn/Hamiltonian-Mathematics -isystem /usr/local/include/opencv4 -g -o CMakeFiles/n-dimensional_vector_fields.dir/source.cpp.o -c \"/home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields/source.cpp\"",
+  "file": "/home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields/source.cpp"
+}
+]

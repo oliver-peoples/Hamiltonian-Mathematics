@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "n-dimensional_vector_fields",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "n-dimensional_vector_fields::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-n-dimensional_vector_fields-Debug-72fc7420a8eb23635b6c.json",
+					"name" : "n-dimensional_vector_fields",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields/build",
+		"source" : "/home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
