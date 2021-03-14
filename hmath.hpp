@@ -740,12 +740,50 @@ namespace hmath
 	//	new_y.normalize();
 	//}
 
-	// template<size_t nDimensions, typename elementType> class nDimensionalField
-	// {
-	// private:
-	// 	struct nVector
-	// public:
-	// 	nDimensionalVectorField() {}
-	// 	~nDimensionalVectorField() {}
-	// };		
+	class VectorField2d
+	{
+	private:
+		std::vector<std::vector<hmath::Vector2>> field;
+
+	public:
+		VectorField2d() {}
+		~VectorField2d() {}
+
+		std::vector<std::vector<hmath::Vector2>> getField()
+		{
+			return this->field;
+		}
+	};
+
+	class VectorField3d
+	{
+	private:
+		std::vector<std::vector<std::vector<hmath::Vector3>>> field;
+
+	public:
+		VectorField3d() {}
+		~VectorField3d() {}
+
+		std::vector<std::vector<std::vector<hmath::Vector3>>>& getField()
+		{
+			return this->field;
+		}
+	};	
+
+	class Vector3Field4d
+	{
+	private:
+		std::vector<std::vector<std::vector<std::vector<hmath::Vector3>>>> field;
+
+	public:
+		Vector3Field4d() {}
+		~Vector3Field4d() {}
+
+		std::vector<std::vector<std::vector<std::vector<hmath::Vector3>>>>& getField()
+		{
+			return this->field;
+		}
+	};
+
+
 }

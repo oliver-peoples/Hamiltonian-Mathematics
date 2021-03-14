@@ -1,3 +1,3 @@
 /home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields/build/CMakeFiles/rebuild_cache.dir
-/home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields/build/CMakeFiles/edit_cache.dir
 /home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields/build/CMakeFiles/n-dimensional_vector_fields.dir
+/home/finn/Hamiltonian-Mathematics/Examples/N-Dimensional Vector Fields/build/CMakeFiles/edit_cache.dir

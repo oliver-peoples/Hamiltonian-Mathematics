@@ -52,13 +52,6 @@
 					"fragment" : "-g"
 				}
 			],
-			"defines" : 
-			[
-				{
-					"backtrace" : 2,
-					"define" : "CERES_FOUND"
-				}
-			],
 			"includes" : 
 			[
 				{
@@ -97,6 +90,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libopencv_gapi.so.4.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "/usr/local/lib/libopencv_stitching.so.4.5.0",
 				"role" : "libraries"
 			},
@@ -128,11 +126,6 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "/usr/local/lib/libopencv_cvv.so.4.5.0",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libopencv_datasets.so.4.5.0",
 				"role" : "libraries"
 			},
 			{
@@ -197,11 +190,6 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libopencv_plot.so.4.5.0",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
 				"fragment" : "/usr/local/lib/libopencv_quality.so.4.5.0",
 				"role" : "libraries"
 			},
@@ -232,6 +220,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libopencv_stereo.so.4.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "/usr/local/lib/libopencv_structured_light.so.4.5.0",
 				"role" : "libraries"
 			},
@@ -247,7 +240,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libopencv_text.so.4.5.0",
+				"fragment" : "/usr/local/lib/libopencv_tracking.so.4.5.0",
 				"role" : "libraries"
 			},
 			{
@@ -287,17 +280,32 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libopencv_shape.so.4.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libopencv_datasets.so.4.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libopencv_plot.so.4.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libopencv_text.so.4.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "/usr/local/lib/libopencv_dnn.so.4.5.0",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
 				"fragment" : "/usr/local/lib/libopencv_ml.so.4.5.0",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libopencv_shape.so.4.5.0",
 				"role" : "libraries"
 			},
 			{
